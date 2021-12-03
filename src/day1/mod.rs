@@ -13,7 +13,7 @@ pub fn pt1_run() {
             previous_measurement = measurement
         }
     });
-    println!("Day1 result: {}", depth_increases)
+    println!("Day1 pt1 result: {}", depth_increases)
 }
 
 pub fn pt2_run() {
@@ -40,5 +40,5 @@ pub fn pt2_run() {
         }
         last_measurement = measurement
     }
-    println!("Day2 result: {}", depth_increases);
+    println!("Day1 pt2 result: {}", depth_increases);
 }
